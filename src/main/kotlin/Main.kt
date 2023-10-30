@@ -6,7 +6,7 @@ fun main(args: Array<String>) {
 //    val str= readln()
 //    println(str)
 //    println(myFirstFunc("Hrithik"))
-    var obj= OuterClass(5,3);
+    var obj = OuterClass(5, 3);
 
 }
 
@@ -17,12 +17,13 @@ fun main(args: Array<String>) {
 //}
 
 //Secondary Constructor
- class OuterClass {
+class OuterClass {
 
-     constructor(a:Int,b:Int){
-        println(func(a,b))
-     }
-     private fun func(x:Int, y:Int):Int{
-         return x+y;
-     }
+    constructor(a: Int, b: Int) {
+        println(func(a, b))
+    }
+
+    private fun func(x: Int, y: Int): Int {
+        return x + y;
+    }
 }
